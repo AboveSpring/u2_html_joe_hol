@@ -1,4 +1,4 @@
-.flex-container ul {
+.flex-nav ul {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -49,7 +49,7 @@ header{
 
 
 
-.flex-container li a {
+.flex-nav li a {
     color: white;
     padding: 30px;
     text-decoration: none;
@@ -60,7 +60,7 @@ header{
 
 }
 
-.flex-container li a:hover {
+.flex-nav li a:hover {
     background-color: white;
     color: rgb(8, 8, 8);
 }
