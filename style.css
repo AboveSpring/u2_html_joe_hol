@@ -2,69 +2,178 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color:#ffd662;
+    background-color: #ffd662;
     justify-content: center;
-    box-sizing: border-box;
     list-style-type: none;
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
-    
+
+
+
 }
-main{
-    height: 2000px;
-    
+
+main {
+    height: 1500px;
 }
-    
-    
-#headline{
-    background-color: #90caf9;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border: solid 2px black;
+
+.main-gallery {
+    display: flex;
+    justify-content: center;
+
+}
+
+.front-jpeg {
+    width: 25vw;
+    height: 35vw;
+}
+
+#headline {
+    position: absolute;
+    z-index: 5;
 }
 
 
 
-#headline h1{
+#headline h1 {
     text-align: center;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 6px 6px 4px black;
     color: #ffd662;
-    font-size: 5em;
+    font-size: 5vw;
     margin-block-end: 0;
     margin-block-start: 0;
 }
-#headline p{
+
+#headline p {
     margin-block-start: 0;
     text-align: center;
-    font-size: 13px;
+    font-size: 1vw;
+    color: white;
 
 }
-header{
+
+header {
     position: sticky;
     top: 0px;
-      
+    z-index: 100;
+
 
 }
-
-
-
 .flex-nav li a {
     color: white;
     padding: 30px;
     text-decoration: none;
     font-size: 20px;
     display: flex;
-    
-
-
 }
 
 .flex-nav li a:hover {
-    background-color: white;
-    color: rgb(8, 8, 8);
+    background-color: cornsilk;
+    color: #ffd662;
+
 }
+.company-info{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-right: 150px;
+    margin-top: 50px;
+    
+}
+.company-info h2{
+    text-shadow: 1px 1px 2px black;
+    color: #ffd662;
+    font-size: 30px; 
+}
+.flex-news{
+    width: 25vw;
+    height: 35vw;
+    float: left;
+   
+}
+.flex-news ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    
+    
+
+}
+#news-h4{
+    text-shadow: 1px 1px 2px black;
+    color: #ffd662;
+    font-size: 30px;
+    
+
+}
+.flex-news ul li{
+    padding: 20px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    
+
+}
+
 
 body {
     margin: 0;
+
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid black;
+    height: 45vh;
+    background-color: #ffd662;
+    
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    box-sizing: border-box;
+
+
+}
+
+
+.logo-list ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.insta {
+    margin-right: 4vw;
+
+}
+
+.phone {
+    margin-right: 10vw;
+  
+}
+
+.mail {
+    margin-right: 5vw;
+    
+}
+
+#map {
+    margin-left: 3vw;
+    width:6vw;
+    height: 6vw;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+    transition: height 5ms;
+    transition: width 5ms;
+
+}
+.footer-logo:hover{
+    width: 53px;
+    height: 53px;
 }
