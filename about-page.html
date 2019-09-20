@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset='utf-8'>
@@ -38,45 +38,43 @@
                 förväntningar.
             </p>
         </div>
-        <div>
+
             <h2>Signa gärna vårt bilformulär, så återkomer vi om något liknande kommer in i lager!</h2>
-            <form>
-                <div class="form-div">
-                    <label style="font-size: 15px;" for="Förnamn">Förnamn:</label>
-                    <input type="text" name="Förnamn" placeholder="Fyll i ditt Förnamn" />
 
-                    <label style="font-size: 15px;" for="Efternamn">Efternamn:</label>
-                    <input type="text" name="Efternamn" placeholder="Fyll i ditt Efternamn" />
+            <div class="form-div">
+                <label style="font-size: 15px;" for="firstname">Förnamn:</label>
+                <input type="text" id="firstname" placeholder="Fyll i ditt Förnamn" />
 
-                    <label style="font-size: 15px;" for="adress">Adress:</label>
-                    <input type="text" name="adress" placeholder="Fyll i din Gata" />
-                    <input type="text" name="adress" placeholder="Fyll i ditt Postnr och Stad" />
-                    <select name="Land">
-                        <option value="Sverige">Sverige</option>
-                        <option value="Finland">Finland</option>
-                        <option value="Norge">Norge</option>
-                        <option value="Danmark">Danmark</option>
-                    </select>
-                    <label style="font-size: 15px;" for="Email">Email:</label>
-                    <input type="Email" name="Email" placeholder="Fyll i din Email Adress" />
-                </div>
+                <label style="font-size: 15px;" for="lastname">Efternamn:</label>
+                <input type="text" id="lastname" placeholder="Fyll i ditt Efternamn" />
 
-                <p>Vilket märke är du ute efter?</p>
-                <form action="car" method="get">
-                    <input type="checkbox" name="car" value="Bmw" /> Bmw
-                    <input type="checkbox" name="car" value="Ferrari" /> Ferrari
-                    <input type="checkbox" name="car" value="Mclaren" /> Mclaren
-                    <input type="checkbox" name="car" value="Mercedes" /> Mercedes
-                    <input type="checkbox" name="car" value="Pagani" /> Pegani
-                    <input type="checkbox" name="car" value="Lamborghini" /> Lamborghini
-                </form>
-                <div id="submit-button">
-                    <form action="mailto:holmberg_joel@outlook.com">
+                <label style="font-size: 15px;" for="adress-info">Adress:</label>
+                <input type="text" id="adress-info" placeholder="Fyll i din Gata" />
+                <input type="text"  placeholder="Fyll i ditt Postnr och Stad" />
+                <select name="Land">
+                    <option value="Sverige">Sverige</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Norge">Norge</option>
+                    <option value="Danmark">Danmark</option>
+                </select>
+                <label style="font-size: 15px;" for="Email">Email:</label>
+                <input type="Email" id="Email" placeholder="Fyll i din Email Adress" />
+            </div>
+
+            <p>Vilket märke är du ute efter?</p>
+            <form action="car" method="get">
+                <input type="checkbox" name="car" value="Bmw" /> Bmw
+                <input type="checkbox" name="car" value="Ferrari" /> Ferrari
+                <input type="checkbox" name="car" value="Mclaren" /> Mclaren
+                <input type="checkbox" name="car" value="Mercedes" /> Mercedes
+                <input type="checkbox" name="car" value="Pagani" /> Pegani
+                <input type="checkbox" name="car" value="Lamborghini" /> Lamborghini
+            </form>
+            <div id="submit-button">
+                <form action="mailto:holmberg_joel@outlook.com">
                     <input type="submit" value="Skicka in Bilformulär" />
-                    </form>
-                </div>
-        </div>
-
+                </form>
+            </div>
     </main>
 
     <footer>
@@ -111,13 +109,13 @@
                 </li>
                 <li>
                     <a class="mail" href="mailto:holmberg_joel@outlook.com" target="_top"><img class="footer-logo"
-                            src="Pictures/iconmonstr-email-11-64.png" /></a></li>
+                            src="Pictures/iconmonstr-email-11-64.png" alt="mail button"/></a></li>
                 <li>
                     <a class="insta" href="https://www.instagram.com/carlifestyle/" target="_top"><img
-                            class="footer-logo" src="Pictures/iconmonstr-instagram-11-64.png" /></a></li>
+                            class="footer-logo" src="Pictures/iconmonstr-instagram-11-64.png" alt="instagram button"/></a></li>
                 <li>
                     <a class="phone" href="tel:0706574386" target="_top"><img class="footer-logo"
-                            src="Pictures/iconmonstr-phone-9-64.png" /></a> </li>
+                            src="Pictures/iconmonstr-phone-9-64.png" alt="phone button" /></a> </li>
             </ul>
         </div>
     </footer>
