@@ -7,14 +7,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
-
-
 }
-
-
-
-
 .main-gallery {
     display: flex;
     justify-content: center;
@@ -90,20 +83,12 @@ header {
     width: 25vw;
     float: left;
     margin-left: 8%;
-
-
-
-
-
 }
 
 .flex-news ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-
-
-
 }
 
 #news-h4 {
@@ -129,15 +114,13 @@ header {
 
 
 body {
-    margin: 0;
-
-    font-family: 'oswald', sans-serif;
-
+    margin: 0;   
+    font-family: 'Oswald', sans-serif;
 }
 
 #car-logos {
     text-align: center;
-    margin-top: 740px;
+    margin-top: 760px;
 
 }
 #car-logos ul{
@@ -148,9 +131,6 @@ body {
 #car-logos ul li {
     list-style-type: none;
     display: inline;
-
-
-
 }
 
 #car-logos img {
@@ -177,11 +157,8 @@ footer {
     justify-content: space-around;
     margin-top: 25px;
     box-sizing: border-box;
-
-
+    
 }
-
-
 .logo-list ul {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +185,7 @@ footer {
 }
 
 #map {
-    margin-left: 80px;
+    margin-left: 105px;
     width: 75px;
     height: 75px;
 }
@@ -354,7 +331,7 @@ footer {
     }
 
     #map {
-        margin-left: 20px;
+        margin-left: 40px;
         width: 75px;
         height: 75px;
     }
@@ -379,7 +356,7 @@ footer {
     }
     #car-logos {
         text-align: center;
-        margin-top: 850px;
+        margin-top: 950px;
     }
     .company-info {
         float: right;
@@ -393,7 +370,7 @@ footer {
         height: 238px;
     }
     #map {
-        margin-left: 0px;
+        margin-left: 10px;
         width: 75px;
         height: 75px;
     }
@@ -407,7 +384,6 @@ footer {
         color: #ffd662;
         font-size: 60px;
         margin: 0;
-        
     }
 }
 
